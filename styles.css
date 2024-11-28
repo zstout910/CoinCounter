@@ -1,0 +1,96 @@
+:root {
+    --red: #c90808;
+    --black: #333;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: var(--red);
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: left;
+    border-bottom: 5px solid #fff;
+  }
+  
+  .website-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .container {
+    margin: 100px auto; /* Adjusted margin for header */
+    max-width: 1000px; /* Increased width */
+    padding: 30px; /* Increased padding */
+    background: #ffffff;
+    border: 10px solid var(--black);
+    border-radius: 30px; /* Softer corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Stronger shadow for emphasis */
+  }
+  
+  h1 {
+    font-size: 28px; /* Larger font for heading */
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 90%; /* Slightly wider input field */
+    padding: 12px; /* Increased padding for input field */
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 30px;
+  }
+  
+  button {
+    padding: 12px 24px; /* Larger button */
+    font-size: 18px;
+    color: #ffffff;
+    background-color: var(--red);
+    border: 5px solid var(--black);
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #result {
+    margin-top: 30px; /* Increased spacing */
+    text-align: center; /* Center the content */
+    max-width: 100%; /* Allow the result to stretch */
+  }
+  
+  .currency-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    justify-content: left;
+    gap: 15px; /* Add consistent spacing between images */
+  }
+  
+  .currency-item img {
+    margin: 5px;
+    max-height: 70px;
+  }
+  
+  .currency-item img.bill {
+    width: 140px; /* Larger size for bills */
+  }
+  
+  .currency-item img.coin {
+    width: 40px; /* Larger size for coins */
+
+  }
+  
